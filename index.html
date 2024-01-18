@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RNG</title>
+  </head>
+  <body>
+    <header>
+      <h1>Random Number Generator (RNG)</h1>
+      <hr />
+    </header>
+    <main>
+      <form action="">
+        <label>Min:<input type="number" name="min" id="min" value="1" /></label>
+        <label
+          >Max:<input type="number" name="max" id="max" value="10"
+        /></label>
+        <button type="button" onclick="generate()">Generate</button>
+      </form>
+      <div>
+        <h4>Result: <span class="result"></span></h4>
+      </div>
+      <hr />
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
