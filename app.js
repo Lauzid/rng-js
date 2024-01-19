@@ -30,7 +30,7 @@ function generate() {
     // A cada iteração, esta linha de código faz com que o número que estiver sendo iterado vá para dentro do array.
     range.push(i);
   }
-  // document.getElementById("min").setAttribute("value", range[0]);
+  
   console.log("array: " + range);
 
   // Função dedicada á gerar um número aleatório dentro do range.
