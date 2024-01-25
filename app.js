@@ -30,11 +30,6 @@ function generate() {
     // A cada iteração, esta linha de código faz com que o número que estiver sendo iterado vá para dentro do array.
     range.push(i);
   }
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> a994ed35ba5a3dc681181962ede3ff39d37d761b
   console.log("array: " + range);
 
   // Função dedicada á gerar um número aleatório dentro do range.
